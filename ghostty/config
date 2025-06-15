@@ -1,0 +1,44 @@
+# Font Configuration
+font-family = "JetBrains Mono"
+font-size = 14
+
+# Window and Appearance
+macos-titlebar-style = hidden
+background-opacity = 0.95
+unfocused-split-opacity = 0.7
+
+# Theme and Colors
+theme = GruvboxDark
+
+# Cursor
+cursor-style = "block"
+cursor-style-blink = false
+
+# Terminal Behavior
+scrollback-limit = 10000
+mouse-hide-while-typing = true
+confirm-close-surface = false
+
+# Shell Integration
+shell-integration = "zsh"
+shell-integration-features = "cursor,sudo,title"
+
+# Performance and Rendering
+macos-non-native-fullscreen = false
+resize-overlay = "never"
+resize-overlay-position = "center"
+
+# Window Settings
+window-padding-x = 8
+window-padding-y = 8
+window-padding-balance = true
+window-inherit-working-directory = true
+window-inherit-font-size = true
+
+# Copy/Paste
+copy-on-select = false
+clipboard-read = "allow"
+clipboard-write = "allow"
+
+# Links and URL handling
+auto-update = "check"
