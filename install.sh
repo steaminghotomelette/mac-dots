@@ -50,6 +50,11 @@ brew install stow
 brew install git-delta
 brew install btop
 
+echo "🤖 Installing simple bar..."
+
+# simple bar
+git clone https://github.com/Jean-Tinland/simple-bar $HOME/Library/Application\ Support/Übersicht/widgets/simple-bar
+
 echo "📦 Installing npm packages..."
 
 # npm packages
