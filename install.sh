@@ -48,7 +48,6 @@ brew install ghostscript
 brew install tectonic
 brew install stow
 brew install git-delta
-brew install ncspot
 brew install btop
 
 echo "📦 Installing npm packages..."
