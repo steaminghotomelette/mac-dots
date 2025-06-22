@@ -16,7 +16,8 @@ brew install --cask ghostty
 brew install --cask neovide
 brew install --cask ubersicht
 brew install --cask maestral
-brew install --cask postman
+brew install --cask bruno
+brew install --cask beekeeper-studio
 brew install --cask spotify
 brew install --cask sf-symbols
 brew install --cask font-sf-mono
