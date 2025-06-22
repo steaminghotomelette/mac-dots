@@ -102,6 +102,14 @@ else
   echo "⚠️  Warning: .zshrc file not found in script directory"
 fi
 
+# Copy .simplebarrc
+if [ -f "$SCRIPT_DIR/.simplebarrc" ]; then
+  cp "$SCRIPT_DIR/.simplebarrc" "$HOME/"
+  echo "Copied .simplebarrc"
+else
+  echo "⚠️  Warning: .simplebarrc file not found in script directory"
+fi
+
 # Fish is installed for nvim plugin compatibility only
 echo "🐟 Fish shell installed (for nvim plugin compatibility)"
 
